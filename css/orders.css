@@ -98,3 +98,14 @@ body {
     background-color: #ff6600;
     color: white;
 }
+.ordered-item {
+    width: 90%;
+    height: fit-content;
+    background-color: #43434380;
+    border-radius: 10px;
+    border-bottom: 5px solid #ddd;
+}
+.ordered-item p {
+    font-weight: 500;
+    font-size: 0.65rem;
+}
