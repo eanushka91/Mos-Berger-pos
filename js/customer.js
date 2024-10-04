@@ -1,24 +1,24 @@
 const customerList = [
-    { customerId: "SL01", customerName: "Kumara Perera", telephoneNumber: "+94 77 123 4567", address: "15 Galle Road, Colombo 03", img: "../img/img/profile.png" },
-    { customerId: "SL02", customerName: "Nirmala Fernando", telephoneNumber: "+94 71 234 5678", address: "42 Kandy Road, Kandy", img: "../img/img/profile.png" },
-    { customerId: "SL03", customerName: "Ahmed Farook", telephoneNumber: "+94 76 345 6789", address: "7 Main Street, Galle", img: "../img/img/profile.png" },
-    { customerId: "SL04", customerName: "Lakshmi Gunawardena", telephoneNumber: "+94 75 456 7890", address: "23 Temple Road, Nuwara Eliya", img: "../img/img/profile.png"},
-    { customerId: "SL05", customerName: "Ravi Bandara", telephoneNumber: "+94 78 567 8901", address: "56 Beach Road, Negombo", img: "../img/img/profile.png"},
-    { customerId: "SL06", customerName: "Fathima Hussain", telephoneNumber: "+94 70 678 9012", address: "9 Hill Street, Badulla", img: "../img/img/profile.png"},
-    { customerId: "SL07", customerName: "Chaminda Silva", telephoneNumber: "+94 77 789 0123", address: "31 Lake Road, Anuradhapura", img: "../img/img/profile.png"},
-    { customerId: "SL08", customerName: "Priyanka Rajapaksa", telephoneNumber: "+94 71 890 1234", address: "18 Fort Road, Galle", img: "../img/img/profile.png"},
-    { customerId: "SL09", customerName: "Nalini Wickramasinghe", telephoneNumber: "+94 76 901 2345", address: "5 Temple Street, Kataragama", img: "../img/img/profile.png"},
-    { customerId: "SL10", customerName: "Asanka Jayawardena", telephoneNumber: "+94 75 012 3456", address: "27 Beach Avenue, Trincomalee", img: "../img/img/profile.png"},
-    { customerId: "SL11", customerName: "Dilshan Mendis", telephoneNumber: "+94 78 123 4567", address: "14 Hill Road, Nuwara Eliya", img: "../img/img/profile.png"},
-    { customerId: "SL12", customerName: "Shirani De Silva", telephoneNumber: "+94 70 234 5678", address: "39 Main Road, Jaffna", img: "../img/img/profile.png"},
-    { customerId: "SL13", customerName: "Mohamed Ismail", telephoneNumber: "+94 77 345 6789", address: "8 Galle Face Terrace, Colombo 03", img: "../img/img/profile.png"},
-    { customerId: "SL14", customerName: "Deepika Perera", telephoneNumber: "+94 71 456 7890", address: "22 Kandy Road, Peradeniya", img: "../img/img/profile.png"},
-    { customerId: "SL15", customerName: "Rohan Gunasekara", telephoneNumber: "+94 76 567 8901", address: "11 Beach Road, Bentota", img: "../img/img/profile.png"},
-    { customerId: "SL16", customerName: "Samanthi Ratnayake", telephoneNumber: "+94 75 678 9012", address: "45 Temple Street, Polonnaruwa", img: "../img/img/profile.png"},
-    { customerId: "SL17", customerName: "Tariq Jameel", telephoneNumber: "+94 78 789 0123", address: "3 Main Street, Kalmunai", img: "../img/img/profile.png"},
-    { customerId: "SL18", customerName: "Ayesha Munasinghe", telephoneNumber: "+94 70 890 1234", address: "17 Hill Road, Hatton", img: "../img/img/profile.png"},
-    { customerId: "SL19", customerName: "Lasith Malinga", telephoneNumber: "+94 77 901 2345", address: "29 Galle Road, Matara", img: "../img/img/profile.png"},
-    { customerId: "SL20", customerName: "Chandrika Kumaratunga", telephoneNumber: "+94 71 012 3456", address: "6 Lake View Drive, Kurunegala", img: "../img/img/profile.png"},
+    { customerId: "SL01", customerName: "Kumara Perera", telephoneNumber: "+94 77 123 4567", address: "15 Galle Road, Colombo 03", img: "img/profile.png" },
+    { customerId: "SL02", customerName: "Nirmala Fernando", telephoneNumber: "+94 71 234 5678", address: "42 Kandy Road, Kandy", img: "img/profile.png" },
+    { customerId: "SL03", customerName: "Ahmed Farook", telephoneNumber: "+94 76 345 6789", address: "7 Main Street, Galle", img: "img/profile.png" },
+    { customerId: "SL04", customerName: "Lakshmi Gunawardena", telephoneNumber: "+94 75 456 7890", address: "23 Temple Road, Nuwara Eliya", img: "img/profile.png"},
+    { customerId: "SL05", customerName: "Ravi Bandara", telephoneNumber: "+94 78 567 8901", address: "56 Beach Road, Negombo", img: "img/profile.png"},
+    { customerId: "SL06", customerName: "Fathima Hussain", telephoneNumber: "+94 70 678 9012", address: "9 Hill Street, Badulla", img: "img/profile.png"},
+    { customerId: "SL07", customerName: "Chaminda Silva", telephoneNumber: "+94 77 789 0123", address: "31 Lake Road, Anuradhapura", img: "img/profile.png"},
+    { customerId: "SL08", customerName: "Priyanka Rajapaksa", telephoneNumber: "+94 71 890 1234", address: "18 Fort Road, Galle", img: "img/profile.png"},
+    { customerId: "SL09", customerName: "Nalini Wickramasinghe", telephoneNumber: "+94 76 901 2345", address: "5 Temple Street, Kataragama", img: "img/profile.png"},
+    { customerId: "SL10", customerName: "Asanka Jayawardena", telephoneNumber: "+94 75 012 3456", address: "27 Beach Avenue, Trincomalee", img: "img/profile.png"},
+    { customerId: "SL11", customerName: "Dilshan Mendis", telephoneNumber: "+94 78 123 4567", address: "14 Hill Road, Nuwara Eliya", img: "img/profile.png"},
+    { customerId: "SL12", customerName: "Shirani De Silva", telephoneNumber: "+94 70 234 5678", address: "39 Main Road, Jaffna", img: "img/profile.png"},
+    { customerId: "SL13", customerName: "Mohamed Ismail", telephoneNumber: "+94 77 345 6789", address: "8 Galle Face Terrace, Colombo 03", img: "img/profile.png"},
+    { customerId: "SL14", customerName: "Deepika Perera", telephoneNumber: "+94 71 456 7890", address: "22 Kandy Road, Peradeniya", img: "img/profile.png"},
+    { customerId: "SL15", customerName: "Rohan Gunasekara", telephoneNumber: "+94 76 567 8901", address: "11 Beach Road, Bentota", img: "img/profile.png"},
+    { customerId: "SL16", customerName: "Samanthi Ratnayake", telephoneNumber: "+94 75 678 9012", address: "45 Temple Street, Polonnaruwa", img: "img/profile.png"},
+    { customerId: "SL17", customerName: "Tariq Jameel", telephoneNumber: "+94 78 789 0123", address: "3 Main Street, Kalmunai", img: "img/profile.png"},
+    { customerId: "SL18", customerName: "Ayesha Munasinghe", telephoneNumber: "+94 70 890 1234", address: "17 Hill Road, Hatton", img: "img/profile.png"},
+    { customerId: "SL19", customerName: "Lasith Malinga", telephoneNumber: "+94 77 901 2345", address: "29 Galle Road, Matara", img: "img/profile.png"},
+    { customerId: "SL20", customerName: "Chandrika Kumaratunga", telephoneNumber: "+94 71 012 3456", address: "6 Lake View Drive, Kurunegala", img: "img/profile.png"},
 ];
 
 window.onload = function() {
@@ -121,7 +121,7 @@ function addCustomer() {
         customerId: nextCustomerId,
         customerName: customerName,
         telephoneNumber: customerTele,
-        img: "../img/img/profile.png"
+        img: "img/profile.png"
     };
 
     customerList.push(newCustomer);
@@ -147,7 +147,7 @@ function updateCustomer() {
     if (index !== -1) {
         customerList[index].customerName = customerName;
         customerList[index].telephoneNumber = customerTele;
-        customerList[index].address = customerAddress;
+        // customerList[index].address = customerAddress;
         localStorage.setItem('customerList', JSON.stringify(customerList));
         alert("Customer updated successfully!");
         searchCustomers();
