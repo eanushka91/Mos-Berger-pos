@@ -1,0 +1,250 @@
+body {
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sidebar {
+    background-color: #00000093;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.mleft{
+    margin-left: 40px;
+}
+        
+.sidebar h1 {
+    color: #ff6600;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+        
+.sidebar button {
+    display: block;
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+        
+.sidebar2 {
+    background-color: #ff0000;
+}
+
+.black{
+    color: #000000;
+}
+
+
+.selected-items {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+.search-bar{
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+
+.menu-item {
+    margin: 2px;
+    width: 10px;
+    height: 100%;
+    border: #000000;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-item img {
+    width: 25%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.menu-item p {
+    text-align: left;
+    margin: 5px 0;
+    color: #666;
+}
+
+.order-panel {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+.order-panel h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.order-panel input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.selected-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.selected-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.payment-info {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.place-order-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.menu-categories {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.menu-categories button {
+    margin: 10px;
+    width: 130px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-main {
+    overflow-y: auto;
+    height: 75%;
+}
+.product-card {
+    border: 1px solid #ddd;
+    height: 190px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+.product-card img {
+border-radius: 10px;
+border: 1px solid #00772e51;
+height: 70px;
+object-fit: fill;
+
+}
+.card {
+border-radius: 10px;
+height: 16rem;
+}
+
+.card-title{
+text-align: center;
+font-size: 10px;
+font-weight: 500;
+}
+.card-text{
+text-align: center;
+color: #000000;
+font-size: 10px;
+font-weight: 500;
+}
+.subTotal {
+    font-size: 14px;
+    font-weight: 600;
+    color: #828282;
+}
+
+.order-item p {
+    font-size: 8px;
+    color: #000000;
+}
+.order-item {
+    height: fit-content;
+    background-color: #ffffffa2;
+    border-radius: 10px;
+    border-bottom: 1px solid #000000;
+
+}
+.btnDelete {
+    border: none;
+    background: none;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+.box3 {
+    width: 96%;
+    height: 350px;
+    margin: 6% 2.5% 0% 2.5%;
+    background-color: rgba(255, 255, 255, 0.193);
+    border-radius: 10px;
+}
+.poca {
+    font-size: 0.8rem;
+}
+
+.pooid {
+    font-size: 0.8rem;
+}
+.poti {
+    font-size: 0.8rem;
+}

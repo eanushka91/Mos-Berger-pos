@@ -1,0 +1,96 @@
+body {
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+        
+.sidebar {
+    background-color: #00000093;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.mleft{
+    margin-left: 40px;
+}
+        
+.sidebar h1 {
+    color: #ff6600;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+        
+.sidebar button {
+    display: block;
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+        
+.sidebar5 {
+    background-color: #ff0000;
+}
+
+.black{
+    color: #000000;
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+.selected-items {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+}
+
+.delete-order-panel h4 {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.delete-order-panel input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-order-panel button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-order-panel button:first-of-type {
+    background-color: #ff6600;
+    color: white;
+}

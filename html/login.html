@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to MOS Bergers</title>
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="left">
+            <h2>MOS <span class="black">Burgers </span></h2>
+            <h2> <span class="center">Login</span></h2>
+            <p class="mt">Name</p>
+            <input type="text" class="input-field" id="logName" placeholder="Name">
+            <p>Password</p>
+            <input type="password" class="input-field" id="logPassword" placeholder="XXXXXX">
+            <div class="d-flex">
+                <button class="login-button" onclick="loginLetsGo()" id="loginLetsGo">LogIn</button>
+                <button class="login-button" onclick="window.location.href='signup.html'">Signup</button>
+            </div>
+            
+        </div>
+        <div class="right">
+            <img class="loginimg" src="../img/loginimg.png" alt="Illustration">
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+        
+.sidebar {
+    background-color: #00000093;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.mleft{
+    margin-left: 40px;
+}
+        
+.sidebar h1 {
+    color: #ff6600;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+        
+.sidebar button {
+    display: block;
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+        
+.sidebar1 {
+    background-color: #ff0000;
+}
+
+.black{
+    color: #000000;
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+.selected-items {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+}
+
+.menu-categories {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.menu-categories button {
+    width: 130px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+        
+.menu-item img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.selected-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+        
+.selected-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}

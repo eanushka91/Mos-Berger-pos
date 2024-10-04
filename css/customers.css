@@ -1,0 +1,114 @@
+body {
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+        
+.sidebar {
+    background-color: #00000093;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.mleft{
+    margin-left: 40px;
+}
+        
+.sidebar h1 {
+    color: #ff6600;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+        
+.sidebar button {
+    display: block;
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+        
+.sidebar4 {
+    background-color: #ff0000;
+}
+
+.black{
+    color: #000000;
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+.selected-items {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+}
+
+.add-customer-panel h4 {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.add-customer-panel input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-customer-panel button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-customer-panel button:first-of-type {
+    background-color: #ff6600;
+    color: white;
+}
+
+.customer-card {
+    background-color: #ffffffb1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    height: 10rem;
+}
+.customer-card .card-img {
+    border-radius: 10px;
+    border: 1px solid #ee604751;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.card-body{
+    font-size: 12px;
+}
