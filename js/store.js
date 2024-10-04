@@ -93,7 +93,7 @@ function searchProducts() {
         productList[category].forEach((product, index) => {
             if (product.name.toLowerCase().includes(searchInput)) {
                 const productCard = document.createElement("div");
-                productCard.className = "col-md-2 mb-3";
+                productCard.className = "col-md-3 mb-3";
                 productCard.innerHTML = `
                     <div class="card product-card align-items-center" onclick="addToOrderList(${index})">
                         <img src="${product.img}" class="card-img-top" alt="${product.name}">
@@ -121,3 +121,80 @@ document.getElementById('Fries').addEventListener("click", renderProductList.bin
 document.getElementById('Pasta').addEventListener("click", renderProductList.bind(null, "Pasta"));
 document.getElementById('Chicken').addEventListener("click", renderProductList.bind(null, "Chicken"));
 document.getElementById('Beverages').addEventListener("click", renderProductList.bind(null, "Beverages"));
+
+
+
+
+function generateNextItemCode() {
+    return `SL${productList.length + 1}`;
+}
+
+function nextitemcode(){
+    const nextitemcode = generateNextItemCode();
+    document.getElementById('itemcode').value = nextitemcode; 
+}
+
+
+function addItem() {
+    const itemname = document.getElementById('itemname').value;
+    const itemcode = document.getElementById('itemcode').value;
+    const itemprice = document.getElementById('itemprice').value;
+    const discount = document.getElementById('discount').value;
+
+    if (!itemname || !itemcode || !itemprice || !discount) {
+        console.error("All fields are required");
+        alert("All fields are required");
+        return;
+    }
+
+    const nextitemcode = generateNextItemCode();
+    const newitem = {
+        itemname: itemname,
+        itemcode: nextitemcode,
+        itemprice: itemprice,
+        discount: discount,
+        img: "../img/img/profile.png"
+    };
+
+    productList.push(newitem);
+    localStorage.setItem('productList', JSON.stringify(productList));
+    alert("Product added successfully!");
+    searchProducts(); 
+    document.getElementById('itemcode').value = nextitemcode;
+}
+
+
+
+
+function deleteitem() {
+    const itemcode = document.getElementById('itemcode').value;
+    console.log(itemcode);
+
+    if (!itemcode) {
+        console.error("Item Code is required");
+        alert("Item Code is required");
+        return;
+    }
+
+    let index = -1; 
+    productList[currentCategory].forEach((product, id) => {
+        if(product.itemCode === itemcode){
+            index = id;
+        }
+    });
+
+    console.log(index);
+    if (index != -1) {
+        productList[currentCategory].splice(index, 1);
+        localStorage.setItem('productList', JSON.stringify(productList));
+        alert("Product deleted successfully!");
+        searchProducts();
+        document.getElementById('itemname').value = '';
+        document.getElementById('itemcode').value = '';
+        document.getElementById('itemprice').value = '';
+        document.getElementById('discount').value = '';
+    } else {
+        console.error("Product not found with Code: " + itemcode);
+        alert("Product not found with Code: " + itemcode);
+    }
+}

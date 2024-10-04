@@ -22,28 +22,63 @@
                         <button onclick="window.location.href='customers.html'">Customers</button>
                         <button class="sidebar5" onclick="window.location.href='orders.html'">Orders</button>
                     </div>
+                    <br>
+                    <br>
+                    <div><button class="logout" style="width: 50%;" onclick="window.location.href='login.html'">Logout</button></div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="main-content">
-                    
+                    <div class="d-flex m-4 justify-content-center" style="font-size: 10px;">
+                        <input type="text" class="form-control searchBar" id="search-bar" placeholder="Search Customer Here">
+                    </div>
+                    <div class="box6" style="font-size: 10px;">
+                        <div class="row m-2 pt-3 card-main-order" id="order-list"></div>
+                    </div>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="selected-items">
                     <div class="delete-order-panel">
+                        
                         <h4>Delete Orders</h4>
                         <input type="text" placeholder="Order ID">
                         <input type="text" placeholder="Customer ID">
-                        <button>Delete Orders</button>
+                        <div class="box8 mt-3" >
+                            <div>
+                                <p class="mx-3 mt-2"style="font-size: 12px;"><span>Customer ID : </span><span id="custID" style="color: #F54628; font-size: 10px;"></span></p>
+                            </div>
+                            <div>
+                                <p class="mx-3"style="font-size: 12px;"><span>Customer Name : </span><span id="customer-nameO" style="color: #F54628;font-size: 10px;"></span></p>
+                            </div>
+                            <div>
+                                <p class="mx-3"style="font-size: 12px;"><span>Telephone Number : </span><span id="customer-teleO" style="color: #F54628;font-size: 10px;"></span></p>
+                            </div>
+                            <div>
+                                <p class="mx-3"style="font-size: 12px;"><span>Home Address : </span><span id="customer-addressO" style="color: #F54628;font-size: 10px;"></span></p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="box9 mt-3 overflow-auto" style="font-size: 10px;">
+                            <div class="order-list" id="item-list">
+
+                            </div>
+                        </div>
+
+                        <button  onclick="deleteOrder()">Delete Orders</button>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="../js/order.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

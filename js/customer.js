@@ -109,9 +109,8 @@ function addCustomer() {
     const customerId = document.getElementById('customer-id').value;
     const customerName = document.getElementById('customer-name').value;
     const customerTele = document.getElementById('customer-tele').value;
-    const customerAddress = document.getElementById('customer-address').value;
 
-    if (!customerId || !customerName || !customerTele || !customerAddress) {
+    if (!customerId || !customerName || !customerTele ) {
         console.error("All fields are required");
         alert("All fields are required");
         return;
@@ -122,8 +121,7 @@ function addCustomer() {
         customerId: nextCustomerId,
         customerName: customerName,
         telephoneNumber: customerTele,
-        address: customerAddress,
-        img: "../img/user.webp"
+        img: "../img/img/profile.png"
     };
 
     customerList.push(newCustomer);
@@ -137,9 +135,9 @@ function updateCustomer() {
     const customerId = document.getElementById('customer-id').value;
     const customerName = document.getElementById('customer-name').value;
     const customerTele = document.getElementById('customer-tele').value;
-    const customerAddress = document.getElementById('customer-address').value;
+    
 
-    if (!customerId || !customerName || !customerTele || !customerAddress) {
+    if (!customerId || !customerName || !customerTele) {
         console.error("All fields are required");
         alert("All fields are required");
         return;

@@ -20,7 +20,11 @@ body {
 .mleft{
     margin-left: 40px;
 }
-        
+.logout{
+    margin-left: 60px;
+    margin-top: 180px;
+    background-color: #ff6600;
+}     
 .sidebar h1 {
     color: #ff6600;
     margin-bottom: 20px;
@@ -59,7 +63,7 @@ body {
 }
 
 .main-content {
-    background-color: white;
+    background: linear-gradient(rgb(255, 72, 72), rgba(252,176,69,1) );
     border-radius: 10px;
     flex-grow: 1;
     padding: 20px;

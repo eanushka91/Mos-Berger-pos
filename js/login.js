@@ -1,4 +1,14 @@
 let users = JSON.parse(localStorage.getItem('users')) || [];
+
+document
+  .getElementById("logPassword")
+  .addEventListener("keypress", function (event) {
+    if (event.keyCode == 13) {
+      event.preventDefault();
+      loginLetsGo();
+    }
+  });
+
 function addUser(name, contactNumber, email,  password) {
     
     // if (!name || !contactNumber || !email || !password) {
