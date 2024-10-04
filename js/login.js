@@ -62,7 +62,7 @@ function regLetsGo() {
         document.getElementById("regPassword").value = "";
 
         alert("User registered successfully!");
-        window.location.href = "../html/placeorder.html";
+        window.location.href = "placeorder.html";
         renderProductList('Burgers');
     } else {
         alert("Registration failed. Please check your inputs and try again.");
@@ -81,7 +81,7 @@ function loginLetsGo() {
     let password = document.getElementById("logPassword").value;
     let user = users.find(user => user.name === name && user.password === password);
     if (user) {
-        window.location.href = "../html/placeorder.html";
+        window.location.href = "placeorder.html";
         renderProductList('Burgers');
     } else {
         alert("Invalid credentials. Please try again.");
